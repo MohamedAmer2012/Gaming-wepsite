@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: arial;
+    
+}
+div.maincontent{
+ height: 680px;   
+  background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+div.navbar{
+       display: flex;
+    justify-content:center;
+    align-items: center;
+  background: rgba(0,0,0, 0.6);
+}
+div.joinnavbar{
+    background-color: black;
+}
+div.navbar a{
+    color: white;
+    margin:20px;
+}
+div.navbar  a.join{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    
+}
+div.details{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+div.details button{
+   padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;  
+}
+div.games{
+   display: flex; 
+    width: 60%;
+    margin: auto;
+   justify-content: space-around; 
+    align-items: center;
+}
+div.game{
+    text-align: center;
+}
+div.game1 div img{
+    width: 120px;
+   height: 120px;
+    border-radius: 200px;
+    background-image: url(images/fortnite.png);
+    background-size: cover;
+    background-position: center;
+}
+div.game2 div.img{
+    background-image: url(images/spiderman.jpg);
+    width: 120px;
+   height: 120px;
+    border-radius: 200px;
+}
+div.maingame{
+ display: flex;   
+  justify-content: center;  
+    align-items: center;
+  width: 60%;  
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    line-height: 20px;
+}
+div.maingame button{
+ padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color:white;   
+    border: none;
+}
+div.maingame img{
+      margin-right: -100px; 
+    border-radius: 20px;
+    margin-right: auto;
+}
+div.posts{
+   display: flex; 
+    width: 70%;
+    margin: auto;
+   justify-content: space-around; 
+    align-items: center;  
+    border-radius: 8px;
+}
+div.post{
+    margin: 25px; 
+        background-color: black;
+    color: white;
+    border-radius: 9;
+}
+div.post1 div.img{
+    height: 180px;  
+background-image: url(images/post1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+div.post2 div.img{
+    height: 180px;  
+background-image: url(images/post2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+div.post3 div.img{
+    height: 180px;  
+background-image: url(images/post3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+div.postscontent{
+    text-align: center;
+    
+}
+div.post h3{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+div.post div.img{
+   
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+border-radius: 9;
+}
+div.testis{
+    display: flex; 
+    width: 50%;
+    margin: auto;
+   justify-content: space-around; 
+    align-items: center;   
+}
+div.testi{
+    margin: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+div.test h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+div.testi1 div.img{
+    height: 80px;
+    background-image: url(images/woman.png);
+} 
+
+div.testi2 div.img{
+    height: 80px;
+    background-image: url(images/boy.png);
+}
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url(images/boy.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black:
+}
+div.pricing h2{
+    text-align: center;
+}
+div.prices{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.price{
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+   margin: 9px; 
+}
+.price button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color:white;   
+    border: 1px solid white;
+}
+.planprice{
+    background-color: darkblue;
+    padding: 15px;
+}
+.planprice h3{
+    margin: 0px;
+}
+footer{
+    text-align: center;
+    padding: 8px;
+    margin-top: 40px;
+    background-color: aqua;
+    color: white;
+}
+.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+border-radius: 10px;
+    margin-top: 50px;
+}
+.join.form .image{
+    width: 35%
+}
+.join.form .form{
+    width: 65%;
+}
+.joinform .image{
+background-image: url(images/fantasy1.jpg);
+background-size: cover;
+    justify-content: center;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px; 
+}
+form input, form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+form button{
+    background-color: blue;
+    color: white;
+}
+.footer{
+ color: black;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
